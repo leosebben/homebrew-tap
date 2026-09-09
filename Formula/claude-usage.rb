@@ -2,7 +2,6 @@
 class ClaudeUsage < Formula
   desc "TUI com o uso de tokens e custo do Claude Code"
   homepage "https://github.com/leosebben/claude-usage"
-  version "0.1.1"
   license "MIT"
 
   on_macos do
