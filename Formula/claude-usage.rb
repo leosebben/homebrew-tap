@@ -1,4 +1,4 @@
-# Gerada por scripts/formula.sh a partir da release v0.1.1. Não editar à mão.
+# Gerada por scripts/formula.sh a partir da release v0.1.2. Não editar à mão.
 class ClaudeUsage < Formula
   desc "TUI com o uso de tokens e custo do Claude Code"
   homepage "https://github.com/leosebben/claude-usage"
@@ -6,23 +6,23 @@ class ClaudeUsage < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/leosebben/claude-usage/releases/download/v0.1.1/claude-usage-v0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "df086f90d1b5a0855d5ae38b1ed5124b20df4cfb4477cbea6b3a2789dc75a3be"
+      url "https://github.com/leosebben/claude-usage/releases/download/v0.1.2/claude-usage-v0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "de0f02473887c983885d8218aa91163e1ebcdc5fea1c9f8a26850665bdb64d70"
     end
     on_intel do
-      url "https://github.com/leosebben/claude-usage/releases/download/v0.1.1/claude-usage-v0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "5e56edc5b98a3cd601b2ad54c16ec249f6ba1fe23197210c46dc97d15c55b803"
+      url "https://github.com/leosebben/claude-usage/releases/download/v0.1.2/claude-usage-v0.1.2-x86_64-apple-darwin.tar.gz"
+      sha256 "4765a699bd573f3b023ef609920cd53cd28acd300b43d9b9e9d53550c2e04f62"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/leosebben/claude-usage/releases/download/v0.1.1/claude-usage-v0.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "43cc946be1068cefe35483749d1dd0e8fdc5310baf83f6fc6e099964909932b8"
+      url "https://github.com/leosebben/claude-usage/releases/download/v0.1.2/claude-usage-v0.1.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0dad0ec0ee5b3dc7979463c23caac38d98a51b33fc9aac27c4dfb496e5faf152"
     end
     on_intel do
-      url "https://github.com/leosebben/claude-usage/releases/download/v0.1.1/claude-usage-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "409800d2647d068cc852e22903a082153dcbaaed788ffe490925a3c7c1e7d774"
+      url "https://github.com/leosebben/claude-usage/releases/download/v0.1.2/claude-usage-v0.1.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e62ba455bad6c23e58b9a2c3c0a0c97d595ec0d9964321b46e3fe5123d3ed4d0"
     end
   end
 
